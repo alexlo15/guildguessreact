@@ -1,0 +1,40 @@
+.card {
+  /* background: #fff; */
+  border-radius: 2px;
+  height: 250px;
+  margin: 1rem;
+  position: relative;
+  width: 250px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+}
+
+.card > .img-container {
+  height: 90%;
+  overflow: hidden;
+  text-align: center;
+  background:rgba(3, 3, 3, 0.609);
+}
+.card > .img-container > img {
+  width: 100%
+}
+
+.centered {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* .card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
+}
+
+.card > .content > ul {
+  list-style-type: none;
+}
+
+.card > .content > ul > li {
+  margin-top: 18px;
+} */

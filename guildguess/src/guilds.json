@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Rakdos Cult",
+    "image": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/f/f8/Rakdos_Logo.png?version=a5b01cce987e9d868954b659a14f1dad",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "Izzet League",
+    "image": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/3/3a/Izzet_Logo.png?version=28be6f707c2bd6e64759ca5de5135a06",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "name": "Selesnya Conclave",
+    "image": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/0/08/Selesnya_Logo.png?version=88a9a0c5426d9c64f16630811c3c2187",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "name": "Boros Legion",
+    "image": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/8/89/Boros_Logo.png?version=d5f384f7c9ab005d1063b8bf2d71ee22",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "name": "Golgari Swarm",
+    "image": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/7/76/Golgari_Logo.png?version=8878c5d3d64fc80a6df21c657f7cdf3e",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "name": "Dimir House",
+    "image": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/6/60/Dimir_Logo.png?version=2a99bcfefe861473a37c96c9718f6ca7",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "name": "Azorius Senate",
+    "image": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/3/37/Azorius_Logo.png?version=bb23bc8280bcc0775cbf65d328f77d43",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "Gruul Clan",
+    "image": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/e/e9/Gruul_Logo.png?version=780779d172691a7897b5183403b0d521",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "name": "Simic Combine",
+    "image": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/3/3e/Simic_Logo.png?version=7f153d7009fe02fea1da5e8afb2d08d8",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "name": "Orzhov Syndicate",
+    "image": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/3/38/Orzhov_Logo.png?version=a302bd056b6798b261f9370f57afd066",
+    "clicked": false
+  }
+]
