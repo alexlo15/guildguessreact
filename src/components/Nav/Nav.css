@@ -1,9 +1,8 @@
 nav {
     background-color: #0e1111;
-    color: white;
-    font-size: 2em;
   }
   
+
   .nav-wrapper {
     width: 80%;
     display: inline-block;
@@ -12,12 +11,36 @@ nav {
     text-align: center;
   }
   
+  a:link{
+    text-decoration: none;
+  }
+  a:hover{
+    color: whitesmoke;
+  }
+  a:active{
+    color: red;
+  }
+
   .left {
     position: relative;
     float: left;
+    color: whitesmoke;
+    border: solid 3px whitesmoke;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 30px;
   }
   
   .right {
     position: relative;
     float: right;
+    font-size: 20px;
+    color: whitesmoke;
+    border: solid 3px whitesmoke;
+    border-radius: 3px;
+    padding: 4px;
+  }
+  
+  .right:hover{
+    color: red;
   }

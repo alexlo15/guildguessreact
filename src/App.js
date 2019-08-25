@@ -1,7 +1,9 @@
 import React, {Component} from "react";
 import GuildCard from "./components/GuildCard/index";
 import guilds from "./guilds.json";
-import Nav from "./components/Nav/Nav"
+import Nav from "./components/Nav/Nav";
+import Middle from "./components/Middle/middle";
+
 
 class App extends Component {
   // Setting the initial state of things
@@ -9,8 +11,10 @@ class App extends Component {
     guilds,
     clicked: [],
     score: 0,
-    highscore: 0
+    highscore: 0,
+    
   };
+
 
   // sort the guilds function
   sortGuilds = () => {
@@ -35,12 +39,12 @@ class App extends Component {
     })
   };
 
-  // guild click event
+  // onclick event
   guildClick = event => {
-    // grab the id of the clicked guild
-    const currentChar = event.target.id;
-    // check to see if that guild has been clicked or not, are they in the state array or not?
-    const isClicked = this.state.clicked.indexOf(currentChar) > -1;
+    // this is our clicked guild
+    const currentGuild = event.target.id;
+    // check to see if that guild has been clicked
+    const isClicked = this.state.clicked.indexOf(currentGuild) > -1;
 
     // if that guild is clicked, end the game, reset the score
     if (isClicked) {
@@ -51,13 +55,13 @@ class App extends Component {
       this.sortGuilds();
       this.setState({
         // Lance showed me this trick with the concat
-        clicked: this.state.clicked.concat(currentChar),
+        clicked: this.state.clicked.concat(currentGuild),
         // increase the score
         score: this.state.score + 1
       },
       // if user gets to all 12, shuffle the cards and reset the game
       () => {
-        if (this.state.score === 12) {
+        if (this.state.score === 10) {
           this.sortGuilds();
           this.resetStuff();
         }
@@ -74,6 +78,7 @@ class App extends Component {
           highscore={this.state.highscore}
           score={this.state.score}
           />
+          {/* <Middle /> */}
          
             <div className='container'>
               <div className='row'>

@@ -6,8 +6,8 @@ class Nav extends Component {
     return (
       <nav className="navbar navbar-default navbar-fixed-top">
         <div className='nav-wrapper'>
-          <span className="left">Guild Game </span>
-          <span className="right">HIGH SCORE: {this.props.highscore} &nbsp; | &nbsp; SCORE: {this.props.score}</span>
+          <span className="left"><a href="/">Guild Game </a></span>
+          <span className="right">W : {this.props.wins} &nbsp;|&nbsp;L : {this.props.losses} &nbsp;|&nbsp; HIGH SCORE: {this.props.highscore} &nbsp; | &nbsp; SCORE: {this.props.score}</span>
         </div>
       </nav>
     )
