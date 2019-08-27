@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/guildguessreact/static/css/main.039b8c1d.chunk.css",
+    "main.js": "/guildguessreact/static/js/main.af9d6504.chunk.js",
+    "main.js.map": "/guildguessreact/static/js/main.af9d6504.chunk.js.map",
+    "runtime~main.js": "/guildguessreact/static/js/runtime~main.b51dbfed.js",
+    "runtime~main.js.map": "/guildguessreact/static/js/runtime~main.b51dbfed.js.map",
+    "static/js/2.c07d1b80.chunk.js": "/guildguessreact/static/js/2.c07d1b80.chunk.js",
+    "static/js/2.c07d1b80.chunk.js.map": "/guildguessreact/static/js/2.c07d1b80.chunk.js.map",
+    "index.html": "/guildguessreact/index.html",
+    "precache-manifest.2992f8ffa7fe9492161bf6a0b0dec133.js": "/guildguessreact/precache-manifest.2992f8ffa7fe9492161bf6a0b0dec133.js",
+    "service-worker.js": "/guildguessreact/service-worker.js",
+    "static/css/main.039b8c1d.chunk.css.map": "/guildguessreact/static/css/main.039b8c1d.chunk.css.map",
+    "static/media/style.css": "/guildguessreact/static/media/mtg.bbb235d4.jpg"
+  }
+}
