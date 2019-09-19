@@ -11,7 +11,7 @@ RU-SOM-FSF-FT-06-2019-U-C | HW #15
 ___
 
 ## Motivation
-Create a single page web game
+Create a single page clicky game using react.
 
 ## Technologies used and why
 
