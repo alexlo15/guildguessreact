@@ -11,7 +11,7 @@ Create a single page clicky game using react.
 ## Technologies used and why
 
 **Built with:**
-* [react](https://reactjs.org/)
+* [React](https://reactjs.org/)
 * [Node](https://nodejs.org/en/)
 * [Bootstrap](https://getbootstrap.com/)
 
