@@ -1,7 +1,9 @@
 # [GuildGuessReact](https://alexlo15.github.io/guildguessreact/)
 RU-SOM-FSF-FT-06-2019-U-C | HW #15
+______
 
-___
+![Screenshot](public/screenshot.JPG)
+______
 
 ## Motivation
 Create a single page clicky game using react.
@@ -26,12 +28,6 @@ Our website features:
 1. Stylish CSS
 2. Win/Loss record tracking
 3. Memory Match
-
-
-## Screenshots
-
-
-* ![Screenshot](public/screenshot.JPG)
 
 
 ## License
